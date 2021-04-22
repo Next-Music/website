@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/website/static/css/main.254cd557.chunk.css",
+    "main.js": "/website/static/js/main.5be486c5.chunk.js",
+    "main.js.map": "/website/static/js/main.5be486c5.chunk.js.map",
+    "runtime-main.js": "/website/static/js/runtime-main.371e6ee0.js",
+    "runtime-main.js.map": "/website/static/js/runtime-main.371e6ee0.js.map",
+    "static/js/2.9e5238dc.chunk.js": "/website/static/js/2.9e5238dc.chunk.js",
+    "static/js/2.9e5238dc.chunk.js.map": "/website/static/js/2.9e5238dc.chunk.js.map",
+    "static/js/3.1d75b898.chunk.js": "/website/static/js/3.1d75b898.chunk.js",
+    "static/js/3.1d75b898.chunk.js.map": "/website/static/js/3.1d75b898.chunk.js.map",
+    "index.html": "/website/index.html",
+    "static/css/main.254cd557.chunk.css.map": "/website/static/css/main.254cd557.chunk.css.map",
+    "static/js/2.9e5238dc.chunk.js.LICENSE.txt": "/website/static/js/2.9e5238dc.chunk.js.LICENSE.txt",
+    "static/media/styles.module.scss": "/website/static/media/Roboto-ThinItalic.082b9e84.ttf",
+    "static/media/chat.57d4f2dd.png": "/website/static/media/chat.57d4f2dd.png",
+    "static/media/host.daaf6192.png": "/website/static/media/host.daaf6192.png",
+    "static/media/vote.0079fd1f.png": "/website/static/media/vote.0079fd1f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.371e6ee0.js",
+    "static/js/2.9e5238dc.chunk.js",
+    "static/css/main.254cd557.chunk.css",
+    "static/js/main.5be486c5.chunk.js"
+  ]
+}
