@@ -1,0 +1,63 @@
+@use 'src/styles/colors.scss';
+@use 'src/styles/fonts.scss';
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 45px;
+}
+
+.content-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+
+.right-col {
+  width: 530px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.left-col {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.title {
+  color: colors.$screaming-green;
+  font-family: Roboto-Black;
+  font-size: 120px;
+  margin: -20px 0px -10px 0px;
+}
+
+.subtitle {
+  color: colors.$white;
+  font-family: Roboto-Regular;
+  font-size: 40px;
+  margin: 0px 0px 0px 0px;
+}
+
+@media only screen and (max-width: 800px) {
+  .content-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .right-col {
+    margin: 0px;
+    width: 100%;
+    align-items: center;
+  }
+  .left-col {
+    margin: 0px;
+    width: 100%;
+    align-items: center;
+  }
+}

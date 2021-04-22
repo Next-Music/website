@@ -1,17 +1,28 @@
 {
   "name": "project",
   "version": "0.1.0",
+  "homepage": "https://next-music.github.io/website/",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@types/node": "^14.14.41",
+    "@types/react": "^17.0.3",
+    "lodash": "^4.17.21",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-lottie": "^1.2.3",
     "react-scripts": "4.0.3",
+    "react-spinners": "^0.10.6",
+    "sass": "^1.32.11",
+    "typescript": "^4.2.4",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -34,5 +45,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.168",
+    "@types/react-dom": "^17.0.3",
+    "gh-pages": "^3.1.0"
   }
 }

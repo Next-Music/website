@@ -1,0 +1,26 @@
+@use 'src/styles/colors.scss';
+@use 'src/styles/fonts.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.green {
+  color: colors.$primary;
+  background: none;
+}
+
+.header {
+  color: colors.$white;
+  font-family: Roboto-Regular;
+  font-size: 24px;
+}
+
+.btn-wrap {
+  width: 100%;
+  text-decoration: none;
+}
